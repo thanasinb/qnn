@@ -1,7 +1,7 @@
 # quantized_net by chainer
 
 This is an experimental code for reproducing [1]'s result using chainer. 
-No optimization is used for binary operations. I just binalize weight and activation at computation, and use a straight through estimator for gradient computation. 
+No optimization is used for quantized operations. I just quantized weight and activation at computation, and use a straight through estimator for gradient computation. 
 
 - [1] "Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations", Itay Hubara, Matthieu Courbariaux, Daniel Soudry, Ran El-Yaniv, Yoshua Bengio
 https://arxiv.org/abs/1609.07061
