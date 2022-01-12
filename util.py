@@ -1,7 +1,8 @@
 import numpy
 from chainer import cuda
 
-def _ap2_cpu(x):
+# def _ap2_cpu(x):
+def _ap2(x):
     return numpy.sign(x) * (2 ** numpy.round(numpy.log2(numpy.abs(x))))
 
 def _log_quant_cpu(x, fsr):
